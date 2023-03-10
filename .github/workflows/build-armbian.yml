@@ -12,11 +12,11 @@ on:
       set_branch:
         description: "Branch: edge / current / legacy"
         required: false
-        default: "edge"
+        default: "current"
       set_release:
         description: "Release: jammy / focal / bullseye"
         required: false
-        default: "jammy"
+        default: "focal"
       set_board:
         description: "Board: odroidn2 / lepotato"
         required: false
@@ -28,7 +28,7 @@ on:
       armbian_soc:
         description: "Set Amlogic SoC."
         required: false
-        default: "all"
+        default: "905l3a"
       armbian_kernel:
         description: "Set kernel version."
         required: false
